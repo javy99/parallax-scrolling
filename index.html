@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Scrolling</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="parallax-container">
+      <div class="parallax-layer sky" data-speed="0.05"></div>
+      <div class="parallax-layer mountains" data-speed="0.1"></div>
+      <div class="parallax-layer forest" data-speed="0.25"></div>
+      <div class="parallax-layer foreground" data-speed="0.4"></div>
+      <div class="content">
+        <h1>Welcome to Our Nature Retreat</h1>
+        <p>Explore the serene beauty of nature through our virtual tour.</p>
+        <section>
+          <h2>About Us</h2>
+          <p>
+            Learn more about our mission to bring you closer to nature's
+            untouched beauty.
+          </p>
+        </section>
+        <section>
+          <h2>Discover Hidden Gems</h2>
+          <p>
+            From lush forests to majestic mountains, discover places where peace
+            meets tranquility.
+          </p>
+        </section>
+        <section>
+          <h2>Gallery</h2>
+          <p>
+            Check out our gallery of breathtaking sights from around the world.
+          </p>
+          <div class="gallery">
+            <img
+              src="https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt="Nature Image 1"
+            />
+            <img
+              src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt="Mountain Landscape"
+            />
+            <img
+              src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt="Nature Image 3"
+            />
+          </div>
+        </section>
+        <section>
+          <h2>Visit Us</h2>
+          <p>Plan your visit and enjoy a day in the lap of nature.</p>
+          <button onclick="alert('Booking Confirmed!')">Book Your Visit</button>
+        </section>
+        <section>
+          <h2>Stay Updated</h2>
+          <p>
+            Sign up for our newsletter to get the latest updates on new tours
+            and special offers.
+          </p>
+          <input type="email" placeholder="Enter your email" />
+          <button>Subscribe</button>
+        </section>
+        <section class="extra-content">
+          <h2>Conservation Efforts</h2>
+          <p>
+            Join us in our efforts to protect and preserve the environment.
+            Learn how you can contribute to making a difference today!
+          </p>
+          <button onclick="alert('Thank you for your interest!')">
+            Learn More
+          </button>
+        </section>
+        <div class="content">
+          <footer>
+            <p>Contact Us: info@natureretreat.com | +123 456 7890</p>
+            <p>Follow Us on Social Media</p>
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> |
+            <a href="#">Twitter</a>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+</html>
